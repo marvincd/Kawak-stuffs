@@ -1,0 +1,64 @@
+.wrapper {
+    padding: 1.5vh;
+}
+
+.image-frame {
+    flex: 4;
+    border-radius: 2vh;
+    margin-top: 20px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 2vh;
+}
+
+.home-posts {
+    display: flex;
+}
+
+.text-div {
+    margin-top: 20px;
+    font-size: 2vw;
+    padding: 2vw;
+    flex: 3;
+    border: none;
+}
+
+.orders-buttons-group {
+    display: flex;
+}
+
+.orders-buttons {
+    text-align: center;
+    flex: 1;
+    font-size: 3vw;
+}
+
+.badges {
+    display: flex;
+}
+
+.tags {
+    text-align: center;
+    display: inline;
+    width: 12vw;
+    margin-left: 2vw;
+    height: 2vh;
+    font-size: 1.2vh;
+    font-weight: bolder;
+    background-color: rgb(255, 196, 2);
+    border-radius: 1vh;
+}
+
+.ordering-button {
+    margin-top: 5vh;
+    color: black;
+    font-weight: bolder;
+    font-size: 2.6vh;
+    background-color: rgb(255, 217, 2);
+}

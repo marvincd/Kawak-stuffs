@@ -1,0 +1,49 @@
+.nav {
+    background-color: #fbd500;
+}
+
+.Title {
+    color: #000;
+    /* font-size: 3vh; */
+}
+
+.nav-buttons {
+    border-radius: 50%;
+}
+
+.buttons-bar {
+    display: flex;
+    text-align: center;
+}
+
+.buttons-divs {
+    flex: 1;
+}
+
+.orders-wrapper {
+    margin: 2.5vh;
+}
+
+.header {
+    font-family: verdana;
+    font-size: 3vh;
+    color: rgba(120, 120, 120, 1);
+    margin-bottom: 1.25vh;
+    text-align: center;
+}
+
+.orders {
+    text-align: center;
+    border-radius: 5vh;
+    border: none !important;
+    padding: 3vh;
+    box-shadow: -2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.orders-buttons-group {
+    display: flex;
+}
+
+.orders-buttons {
+    flex: 1;
+}
