@@ -1,0 +1,97 @@
+<div class="bg-dark title-wrapper">
+    <!--tips: add .text-center,.text-right to the .card to change card text alignment-->
+    <img src="../../assets/pictures/images (25).jpeg" class="card-img-top img-blur card-image" alt="...">
+    <div class="card-img-overlay bob">
+        <h5 class="card-title blob first"> We  </h5>
+        <p class="blob second">shape our homes</p>
+        <br>
+        <p class="dom">AND THEN</p>
+        <br>
+        <h5 class="card-title blob first">Our </h5>
+        <p class="blob second">homes shape us</p>
+        <h6 class="card-subtitle caption mb-2 ">...lets help you design a home that tells your story</h6>
+
+    </div>
+</div>
+<div class="home-body">
+        <div class="home-posts">
+            <div class="card text-div">
+                <p>Our home should tell the story of who we are and a collection of what we love</p>
+            </div>
+            <div class="image-frame">
+                <img src="../../assets/pictures/images (19).jpeg" class="image" >
+            </div>
+        </div>
+        <p class="hard-text">Thats why at omeak int ltd our  goal is to design and produce a home that echos your lifestyle and personality
+        . We specialize in interior decoration and you can get your furnitures like cushions, dining chairs, tables of all kinds, your bed, bed side, wardrobe, cup boards, kitchen cabinets, etc.
+        we also render maintainance services, our aim is to provide our customers with the best interior they desire.
+        </p>
+
+        <div class="header">Gallery</div>
+        <div class="card feed-card" *ngIf="post.home">
+                <!--tips: add .text-center,.text-right to the .card to change card text alignment-->
+            <img src={{post.image}} class="card-img-top card-image" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{post.title}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{post.subtitle}}</h6>
+                    <p class="card-text">{{post.description}}</p>
+                    <button class="btn btn-warning btn-block ordering-button" routerLink="../contact" routerLinkActive="active"> Contact us to place your order</button>
+
+                </div>
+            </div>
+            <div class="card feed-card" >
+                <!--tips: add .text-center,.text-right to the .card to change card text alignment-->
+            <img src="../../assets/pictures/images (37).jpeg" class="card-img-top card-image" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">10% Discount on new red sofa</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">first 10 sales only</h6>
+                    <p class="card-text">New arriving red sofa that goes well with red, pink and white background place your orders now to take advantage of the Discount.</p>
+                    <button class="btn btn-warning btn-block ordering-button" routerLink="../contact" routerLinkActive="active"> Contact us to place your order</button>
+
+                </div>
+            </div>
+            <button type="button" routerLink="../gallery" routerLinkActive="active" class="btn btn-warning ordering-button see-more-button"> See more</button>
+        <div class="header">Contact info</div>
+        <div class="contact-info">
+            <div class="side-info">
+                <p>Work hours are between the  time of 6:30AM to 6:30pm from monday to saturdays.</p>
+            </div>
+            <div class="main-info">
+                <p>You can meet with us at C/O Swift presentation, design and building, suite s21 russel center, wuse zone 4, abuja
+                08033494056
+                or visit our social media platforms
+                </p>
+            </div>
+            <div class="side-info">
+                <p>Do well to cotact us to place your orders we look foward to workimg for you.</p>    
+            </div>
+        </div>
+</div>
+<div class="footer">
+    <div class="sub-nav">
+        <div class="links">
+        <a  routerLink="../home" routerLinkActive="active">Home</a>
+        </div>
+        <div class="links">
+        <a  routerLink="../contact" routerLinkActive="active">Contact us</a>
+        </div>
+        <div class="links">
+        <a  routerLink="../gallery" routerLinkActive="active">Gallery</a>
+        </div>
+    </div>
+    <p>Connect with omeak on:</p>
+    <div class="social">
+        <a class="icons-side">
+        <i class="fa fa-facebook icon"></i>
+        </a>
+        <a class="icons">
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        </a>
+        <a href="" class="icons-side last-icon">
+        <i class="fa fa-instagram icon" aria-hidden="true"></i>
+        </a>
+    </div>
+
+    <p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> 2021 Pact ltd. All right reserved.</p>
+</div>
+<router-outlet></router-outlet>

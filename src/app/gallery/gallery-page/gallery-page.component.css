@@ -1,0 +1,42 @@
+.see-more-button {
+    font-size: 1.5vh;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.label-overlay {
+    padding-bottom: 0px !important;
+}
+
+.gallery-body {
+    margin-top: 2.5vh;
+    padding: 2.5vh;
+}
+
+.feed-card {
+    margin-top: 2.5vh;
+    font-size: 3.5vw;
+}
+
+.ordering-button {
+    color: black;
+    font-weight: bolder;
+    font-size: 2vh;
+    background-color: rgb(255, 217, 2);
+}
+
+.caption {
+    font-size: 2vh;
+}
+
+@media(max-width: 359px) {
+    .label-overlay {
+        display: none;
+    }
+    .caption {
+        display: none;
+    }
+    .see-more-button {
+        display: none
+    }
+}

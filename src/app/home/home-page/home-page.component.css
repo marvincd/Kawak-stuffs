@@ -1,0 +1,184 @@
+.img-blur {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.blob {
+    display: inline;
+}
+
+.dom {
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 7vw;
+    font-weight: 900;
+    letter-spacing: 9px;
+    color: rgba(255, 255, 2, 0.4);
+}
+
+.bob {
+    text-align: center;
+    padding-top: 0%;
+    height: inherit;
+}
+
+.title-wrapper {
+    height: fit-content;
+    position: relative;
+}
+
+.first {
+    font-size: 15vw;
+    font-family: "Potta One", cursive !important;
+    color: rgb(255, 220, 2);
+}
+
+.second {
+    font-family: "Potta One", cursive !important;
+    font-size: 6vw;
+    color: rgba(251, 255, 2, 0.5);
+}
+
+.caption {
+    margin-top: 5vw;
+    font-size: 3vw;
+    color: rgba(0, 0, 0, 0.596);
+    font-family: "Potta One", cursive !important;
+}
+
+.image-frame {
+    margin-top: 20px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.home-posts {
+    display: flex;
+}
+
+.feed-card {
+    margin-top: 2.5vh;
+    font-size: 3.5vw;
+}
+
+.text-div {
+    margin-top: 20px;
+    font-size: 4vw;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    font-family: "Potta One", cursive !important;
+    border: none;
+}
+
+.image-frame {
+    flex: 2;
+    box-shadow: 5px 5px 3px rgba(131, 129, 160, 0.3);
+    border-radius: 2vh;
+}
+
+.image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 2vh;
+}
+
+.home-body {
+    padding: 2.5vh;
+}
+
+.hard-text {
+    margin-top: 2.5vh;
+    font-size: 3.5vw;
+}
+
+.ordering-button {
+    color: black;
+    font-weight: bolder;
+    font-size: 2.6vh;
+    background-color: rgb(255, 217, 2);
+}
+
+.header {
+    font-family: verdana;
+    font-size: 3vh;
+    color: rgba(120, 120, 120, 1);
+    margin-bottom: 1.25vh;
+    text-align: center;
+}
+
+.see-more-button {
+    margin-top: 2.5vh;
+    font-size: 2vh;
+    margin-left: 0vw;
+    margin-right: auto;
+}
+
+.contact-info {
+    display: flex;
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+.side-info {
+    flex: 1;
+    margin: 1.25vw;
+}
+
+.main-info {
+    font-weight: 600;
+    flex: 2;
+    background-color: rgb(255, 217, 2);
+    border-radius: 2vh;
+    padding: 1.5vw;
+    padding-top: 2vh;
+    box-shadow: inset 0 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: rgb(255, 217, 2);
+    padding: 2.5vh;
+    text-align: center;
+}
+
+.sub-nav {
+    display: flex;
+    font-weight: 600;
+}
+
+.links {
+    flex: 1;
+}
+
+.icons {
+    flex: 1
+}
+
+.icons-side {
+    text-align: end;
+    flex: 1;
+}
+
+.last-icon {
+    text-align: start !important;
+}
+
+.icon {
+    justify-self: flex-end;
+}
+
+.social {
+    display: flex;
+    font-size: 3vh;
+}
+
+.copyright {
+    margin-top: 6vh;
+    margin-bottom: 0.01vh;
+    font-size: 1.5vh;
+}
+
+a {
+    color: #000;
+}
